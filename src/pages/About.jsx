@@ -15,15 +15,14 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Ivo
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Software Developer based in Argentina, specializing in building webpages and applications.
         </p>
       </div>
 
@@ -107,8 +106,6 @@ const About = () => {
       </div>
 
       <hr className='border-slate-200' />
-
-      <CTA />
     </section>
   );
 };
