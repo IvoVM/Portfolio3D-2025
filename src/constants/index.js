@@ -1,4 +1,12 @@
-import { meta, shopify, etna, lomi, clinic, storewise, oworkers } from "../assets/images";
+import {
+  meta,
+  shopify,
+  etna,
+  lomi,
+  clinic,
+  storewise,
+  oworkers,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -26,7 +34,8 @@ import {
   typescript,
   netcore,
   angular,
-  bootstrap
+  bootstrap,
+  alamnoclinica,
 } from "../assets/icons";
 export const skills = [
   // Frontend
@@ -115,7 +124,6 @@ export const skills = [
   },
 ];
 
-
 export const experiences = [
   {
     title: "Etna",
@@ -163,9 +171,9 @@ export const experiences = [
     iconBg: "#a2d2ff ",
     date: "Sep 2023 - Oct 2023",
     points: [
-        "Worked as a fullstack developer using Next.js for the frontend and Express.js with MongoDB for the backend.",
-        "Designed and implemented RESTful APIs to handle efficient data communication between the client and server.",
-        "Ensured database performance and optimized queries with Redis.",
+      "Worked as a fullstack developer using Next.js for the frontend and Express.js with MongoDB for the backend.",
+      "Designed and implemented RESTful APIs to handle efficient data communication between the client and server.",
+      "Ensured database performance and optimized queries with Redis.",
     ],
   },
   {
@@ -180,7 +188,7 @@ export const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  }
+  },
 ];
 
 export const socialLinks = [
@@ -203,51 +211,54 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    iconUrl: alamnoclinica,
+    theme: "btn-back-black",
+    name: "AlamnoIt | Clínica",
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+    // link: "https://github.com/adrianhajdin/pricewise",
   },
   {
-    iconUrl: threads,
+    iconUrl:
+      "https://etnaeducacion.com.ar/wp-content/uploads/2023/07/logo-blanco-para-header.png",
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Etna",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    link: "https://etnaeducacion.com.ar/",
   },
   {
-    iconUrl: car,
+    iconUrl:
+      "https://lomi.cl/assets/new_logo-7c349c11c10541a9528b20ba73ab446cb3be27ae9e6d80969bf5f17ab5888362.svg",
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Lomi - Ecommerce",
     description:
       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    link: "https://lomi.cl",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    iconUrl:
+      "https://lomi.cl/assets/new_logo-7c349c11c10541a9528b20ba73ab446cb3be27ae9e6d80969bf5f17ab5888362.svg",
+    theme: "btn-back-yellow",
+    name: "Lomi - Ecommerce (Mobile App)",
     description:
       "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+    link: "https://play.google.com/store/apps/details?id=cl.lomi.app&hl=es_AR&pli=1",
   },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
-  },
+  // {
+  //   iconUrl: estate,
+  //   theme: "btn-back-black",
+  //   name: "Real-Estate Application",
+  //   description:
+  //     "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+  //   link: "https://github.com/adrianhajdin/projects_realestate",
+  // },
+  // {
+  //   iconUrl: summiz,
+  //   theme: "btn-back-yellow",
+  //   name: "AI Summarizer Application",
+  //   description:
+  //     "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+  //   link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  // },
 ];

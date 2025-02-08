@@ -29,7 +29,7 @@ import soundoff from "./soundoff.png";
 import netcore from "./netcore.png";
 import angular from "./angular.svg";
 import bootstrap from "./bootstrap.svg";
-
+import alamnoclinica from "./alamnoclinica.ico";
 export {
   css,
   express,
@@ -62,4 +62,5 @@ export {
   netcore,
   angular,
   bootstrap,
+  alamnoclinica,
 };
